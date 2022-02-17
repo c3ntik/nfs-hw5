@@ -17,6 +17,16 @@
 - firewall должен быть включен и настроен как на клиенте,
 так и на сервере.
 
+# Требования
+
+Требуется предварительно установленный и работоспособный
+[Hashicorp Vagrant](https://www.vagrantup.com/downloads) и [Oracle
+VirtualBox] (https://www.virtualbox.org/wiki/Linux_Downloads). Также
+имеет смысл предварительно загрузить образ CentOS 7 2004.01 из
+Vagrant Cloud командой ```vagrant box add centos/7 --provider
+virtualbox --box-version 2004.01 --clean```, т.к. предполагается, что
+дальнейшие действия будут производиться на таких образах.
+
 # Описание файлов .sh
 # nfsc_script.sh
   
